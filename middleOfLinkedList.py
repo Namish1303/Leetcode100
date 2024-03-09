@@ -14,7 +14,6 @@ class Solution:
         length = 1
         middle = head
         head=head.next
-
         while(head!=None):
             length +=1
             if(length%2==0):
